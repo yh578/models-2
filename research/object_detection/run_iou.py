@@ -8,7 +8,8 @@ LIST_OF_MODELS = ['ssd_mobilenet_v1_coco_2017_11_17', 'ssd_inception_v2_coco_201
 BB_XY_INDEX = ['ymin', 'xmin', 'ymax', 'xmax']
 # List directory path to Kitti Data Set Images
 #PATH_TO_IMAGES = 'C:/Users\KAA\Documents\Rutgers\Research S18\Object Detection Models\KITTI_CAR_DATASET/2011_09_26/2011_09_26_drive_0001_sync\image_02\ground_truth'
-PATH_TO_IMAGES = 'C:\\Users\\Parul\\Desktop\\Kitti Dataset\\2011_09_26\\2011_09_26_drive_0001_sync\\image_02\\data\\ground_truth'
+PATH_TO_IMAGES = 'C:\\Users\\Parul\\Desktop\\Kitti_Dataset\\2011_09_26\\2011_09_26_drive_0001_sync\\image_02\\data\\ground_truth'
+
 LIST_IMAGE_PATH = imgpaths_from_dir(PATH_TO_IMAGES)
 
 
