@@ -7,7 +7,7 @@ import tensorflow as tf
 from scipy import misc
 import ntpath
 from PIL import Image
-from calculate_iou_final2 import imageDetection
+from object_detection.calculate_iou_final2 import imageDetection
 import time
 
 def ssdmodel(TEST_IMAGE_PATHS, MODEL_NAME, max_boxes_to_draw=30, min_score_thresh=.5):
