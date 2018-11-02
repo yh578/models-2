@@ -39,7 +39,7 @@ def ssdmodel(TEST_IMAGE_PATHS, MODEL_NAME, max_boxes_to_draw=30, min_score_thres
     PATH_TO_CKPT = MODEL_NAME + '/frozen_inference_graph.pb'
 
     # List of the strings that is used to add correct label for each box.
-    PATH_TO_LABELS = os.path.join('data', 'mscoco_label_map.pbtxt') # Computer path to list of items with labels
+    PATH_TO_LABELS = os.path.join('object_detection.data', 'mscoco_label_map.pbtxt') # Computer path to list of items with labels
 
     NUM_CLASSES = 90
 
