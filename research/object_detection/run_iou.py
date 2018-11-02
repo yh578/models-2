@@ -1,5 +1,5 @@
 from object_detection.ssdmodel import *
-from object_detection.calculate_iou_final2 import *
+from object_detection.calculate_iou_final import *
 
 LIST_OF_MODELS = ['ssd_mobilenet_v1_coco_2017_11_17', 'ssd_inception_v2_coco_2017_11_17', 'faster_rcnn_resnet101_lowproposals_coco_2018_01_28',
                   'faster_rcnn_resnet101_coco_2018_01_28', 'faster_rcnn_nas_lowproposals_coco_2018_01_28', 'faster_rcnn_nas_coco_2018_01_28',
