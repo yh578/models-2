@@ -99,11 +99,11 @@ def ssdmodel(TEST_IMAGE_PATHS, MODEL_NAME, max_boxes_to_draw=30, min_score_thres
 
           print('Image no: ')
           print(ind)
-          print(image_np.shape)
+
           image_np = misc.imread(image_path, mode='RGB')
           file_name = ntpath.basename(image_path)
           height_pix, width_pix, _ = image_np.shape
-
+          print(image_np.shape)
           detect_struct = imageDetection()
           detect_struct.path = image_path
           detect_struct.basename = file_name
