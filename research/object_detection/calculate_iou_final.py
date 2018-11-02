@@ -1,5 +1,5 @@
 import csv
-from ssdmodel import *
+from object_detection.ssdmodel import *
 import cv2
 from sklearn import metrics
 import matplotlib.pyplot as plt
