@@ -64,8 +64,8 @@ def write_boxes_to_CSV(all_entries, pred_csv):
 
 def write_final_to_CSV(list_of_imageDetections, list_of_truthDetections, output_dir, total_run_time, mean_detection_time, std_det_time):
     model_name = os.path.basename((output_dir)) + "\n"
-    csvpath = output_dir + "data.csv"
-    csvpath_delimited = output_dir + "data_delimited.csv"
+    csvpath = output_dir + "/data.csv"
+    csvpath_delimited = output_dir + "/data_delimited.csv"
 
     with open(csvpath, 'w', newline = '') as csvfile, open(csvpath_delimited, 'w', newline = '') as csvfile_delimited:
 
