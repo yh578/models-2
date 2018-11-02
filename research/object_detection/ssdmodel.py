@@ -97,7 +97,9 @@ def ssdmodel(TEST_IMAGE_PATHS, MODEL_NAME, max_boxes_to_draw=30, min_score_thres
         list_run_time = []
         for ind, image_path in enumerate(TEST_IMAGE_PATHS):
 
-
+          print('Image no: ')
+          print(ind)
+          print(image_np.shape)
           image_np = misc.imread(image_path, mode='RGB')
           file_name = ntpath.basename(image_path)
           height_pix, width_pix, _ = image_np.shape
