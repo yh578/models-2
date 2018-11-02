@@ -68,10 +68,10 @@ def ssdmodel(TEST_IMAGE_PATHS, MODEL_NAME, max_boxes_to_draw=30, min_score_thres
 
 
     # Load categories and labels
-    label_map = label_map_util.load_labelmap(PATH_TO_LABELS) # Returns a StringIntLabelMapProto
-    categories = label_map_util.convert_label_map_to_categories(label_map, max_num_classes=NUM_CLASSES, use_display_name=True) # Creates a dictionary of possible categories
+    #label_map = label_map_util.load_labelmap(PATH_TO_LABELS) # Returns a StringIntLabelMapProto
+    #categories = label_map_util.convert_label_map_to_categories(label_map, max_num_classes=NUM_CLASSES, use_display_name=True) # Creates a dictionary of possible categories
     #print(categories)
-    category_index = label_map_util.create_category_index(categories) # Creates a dictionary of categories, but array index is id
+    #category_index = label_map_util.create_category_index(categories) # Creates a dictionary of categories, but array index is id
 
 
     # Declare array of (img file name, box coordinates)
