@@ -23,7 +23,7 @@ def modify_coordinates(coor, model_xy):
 
 for mdl, MODEL_NAME in enumerate([LIST_OF_MODELS[0]]):
     #OUTPUT_DIR = 'C:/Users\KAA\Documents\Rutgers\Research S18\Object Detection Models\KITTI_CAR_DATASET/2011_09_26/2011_09_26_drive_0001_sync\image_02/' + "metrics_" + MODEL_NAME
-    OUTPUT_DIR = 'C:\\Users\\Parul\\Desktop\\Kitti Dataset\\2011_09_26\\2011_09_26_drive_0001_sync\\image_02\\data' + "metrics_" + MODEL_NAME
+    OUTPUT_DIR = 'C:\\Users\\Parul\\Desktop\\Result\\data' + "metrics_" + MODEL_NAME
 
     print(MODEL_NAME)
     list_of_imageDetections, total_run_time, mean_detection_time, std_det_time = ssdmodel(LIST_IMAGE_PATH, MODEL_NAME)

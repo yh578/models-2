@@ -17,8 +17,8 @@ def ssdmodel(TEST_IMAGE_PATHS, MODEL_NAME, max_boxes_to_draw=30, min_score_thres
         return width * height
 
 
-    if tf.__version__ < '1.4.0':
-      raise ImportError('Please upgrade your tensorflow installation to v1.4.* or later!')
+    #if tf.__version__ < '1.4.0':
+    #  raise ImportError('Please upgrade your tensorflow installation to v1.4.* or later!')
 
     # This is needed since the notebook is stored in the object_detection folder.
     sys.path.append("..")
